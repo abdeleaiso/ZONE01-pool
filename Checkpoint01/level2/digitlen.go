@@ -1,8 +1,4 @@
-package main
-
-import (
-	"fmt"
-)
+package piscine
 
 func DigitLen(n, base int) int {
 	if base < 2 || base > 36{
@@ -19,15 +15,6 @@ func DigitLen(n, base int) int {
 	}
 	return c
 }
-
-
-func main() {
-	fmt.Println(DigitLen(100, 10))
-	fmt.Println(DigitLen(100, 2))
-	fmt.Println(DigitLen(-100, 16))
-	fmt.Println(DigitLen(100, -1))
-}
-
 
 /*
 ## digitlen
